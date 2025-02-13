@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking | Signature BMW</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.min.js"></script>
+  
+</head>
+<body style="margin-top: 3%">
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-secondary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="./index.html"><img height="25px" src="./logo.png" alt="logo"> BMW</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about_us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html#end">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./booking.html">Booking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./faq.html">FAQ's</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="row no-gutters">
+        <div class="col-12" style="background-image: url('./banner2.png'); background-size: cover; background-position: center; height: 50vh;">
+            <div class="d-flex justify-content-center align-items-center h-100 text-center text-white bg-opacity-50">
+                <div>
+                  <h1 class="display-4">Discover the Ultimate Driving Experience</h1>
+                  <p class="lead">Explore our wide range of BMW models and find the perfect car for you!</p>
+          </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container py-5">
+      <h2 class="text-center mb-4">Schedule Your Visit</h2>
+      <div class="row justify-content-center">
+          <div class="col-md-8">
+              <div class="card shadow-lg border-0 rounded">
+                  <div class="card-body p-4">
+                      <form>
+                          <div class="form-row">
+                              <div class="form-group col-md-6">
+                                  <label for="firstName">First Name</label>
+                                  <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+                              </div>
+                              <div class="form-group col-md-6">
+                                  <label for="lastName">Last Name</label>
+                                  <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+                              </div>
+                          </div>
+
+                          <div class="form-group">
+                              <label for="email">Email Address</label>
+                              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                          </div>
+
+                          <div class="form-group">
+                              <label for="phone">Phone Number</label>
+                              <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                          </div>
+
+                          <div class="form-row">
+                              <div class="form-group col-md-6">
+                                  <label for="appointmentDate">Preferred Appointment Date</label>
+                                  <input type="date" class="form-control" id="appointmentDate" required>
+                              </div>
+                              <div class="form-group col-md-6">
+                                  <label for="appointmentTime">Preferred Time</label>
+                                  <input type="time" class="form-control" id="appointmentTime" required>
+                              </div>
+                          </div>
+
+                          <div class="form-group">
+                              <label for="serviceType">Select Service</label>
+                              <select class="form-control" id="serviceType" required>
+                                  <option value="">Choose service...</option>
+                                  <option value="consultation">Consultation</option>
+                                  <option value="testDrive">Test Drive</option>
+                                  <option value="serviceAppointment">Service Appointment</option>
+                              </select>
+                          </div>
+
+                          <div class="form-group">
+                              <label for="message">Additional Notes</label>
+                              <textarea class="form-control" id="message" rows="3" placeholder="Enter any additional notes or requests"></textarea>
+                          </div>
+
+                          <button type="submit" class="btn btn-primary btn-block">Book Now</button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>  
+
+
+
+  <footer class="bg-light text-center py-3">
+    <p>&copy; 2025 Signature BMW. All rights reserved.</p>
+</footer>
+
+
+    
+</body>
+</html>
